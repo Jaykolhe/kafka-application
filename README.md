@@ -34,9 +34,7 @@ In this project:
 ### 1. Prerequisites
 - Install **Apache Kafka** (or run it with Docker).  
 - Start **Zookeeper/Kraft** and **Kafka broker**.  
-- Create a topic named `JK`:  
   ```bash
-  kafka-topics.sh --create --topic JK --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
   git clone https://github.com/Jaykolhe/kafka-application.git
 cd kafka-application
 ./mvnw clean install
